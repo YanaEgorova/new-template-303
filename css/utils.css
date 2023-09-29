@@ -185,13 +185,13 @@ body.error-active .error__overlay {
   padding: 1.6rem 3rem;
   letter-spacing: 0.1rem;
   display: block;
-  text-transform: uppercase;
-  font-family: var(--main-title-font);
-  border: 0.2rem solid var(--second-brand-color);
-  background-color: var(--second-brand-color);
-  color: var(--sub-text-color);
+  text-transform: capitalize;
+  font-family: var(--title-font);
+  border: 0.2rem solid var(--main-text-color);
+  background-color: transparent;
+  color: var(--main-text-color);
   transition: all 0.3s ease-in-out;
-  border-radius: 1rem;
+  border-radius: 5rem;
 }
 
 .bold {
